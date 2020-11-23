@@ -1,0 +1,6 @@
+customer_id,store_id,first_name,last_name,email,address_id,activebool,create_date,last_update,active
+524,1,Jared,Ely,jared.ely@sakilacustomer.org,530,TRUE,2/14/2006,49:45.7,1
+1,1,Mary,Smith,mary.smith@sakilacustomer.org,5,TRUE,2/14/2006,49:45.7,1
+2,1,Patricia,Johnson,patricia.johnson@sakilacustomer.org,6,TRUE,2/14/2006,49:45.7,1
+4,2,Barbara,Jones,barbara.jones@sakilacustomer.org,8,TRUE,2/14/2006,49:45.7,1
+5,1,Elizabeth,Brown,elizabeth.brown@sakilacustomer.org,9,TRUE,2/14/2006,49:45.7,1
