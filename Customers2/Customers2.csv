@@ -1,0 +1,12 @@
+customer_id,store_id,first_name,last_name,email,address_id,activebool,create_date,last_update,active
+589,1,Tracy,Herrmann,tracy.herrmann@sakilacustomer.org,595,t,2/14/2006,49:45.7,1
+590,2,Seth,Hannon,seth.hannon@sakilacustomer.org,596,t,2/14/2006,49:45.7,1
+591,1,Kent,Arsenault,kent.arsenault@sakilacustomer.org,597,t,2/14/2006,49:45.7,1
+592,1,Terrance,Roush,terrance.roush@sakilacustomer.org,598,t,2/14/2006,49:45.7,0
+593,2,Rene,Mcalister,rene.mcalister@sakilacustomer.org,599,t,2/14/2006,49:45.7,1
+594,1,Eduardo,Hiatt,eduardo.hiatt@sakilacustomer.org,600,t,2/14/2006,49:45.7,1
+595,1,Terrence,Gunderson,terrence.gunderson@sakilacustomer.org,601,t,2/14/2006,49:45.7,1
+596,1,Enrique,Forsythe,enrique.forsythe@sakilacustomer.org,602,t,2/14/2006,49:45.7,1
+597,1,Freddie,Duggan,freddie.duggan@sakilacustomer.org,603,t,2/14/2006,49:45.7,1
+598,1,Wade,Delvalle,wade.delvalle@sakilacustomer.org,604,t,2/14/2006,49:45.7,1
+599,2,Austin,Cintron,austin.cintron@sakilacustomer.org,605,t,2/14/2006,49:45.7,1
