@@ -38,3 +38,24 @@ for srinucolor in E:
 # return srinucolor
 # colors = [11, 34, 98, 43, 45, 54, 54]
 # printcolors(colors)
+##############################################################################################################
+phone_numbers = {"John Smith": "+37682929928", "Marry Simpons": "+423998200919"}
+
+for pair in phone_numbers.items():
+    # print(pair[1])
+    print("{} has as phone number {}".format(pair[0], pair[1]))
+#############################################################################################################
+phone_numbers = {"John Smith": "+37682929928", "Marry Simpons": "+423998200919"}
+
+for key, value in phone_numbers.items():
+    print("{} has as phone number {}".format(key, value))
+
+############################################################################################################
+phone_numbers = {"John Smith": "+37682929928", "Marry Simpons": "+423998200919"}
+for key, value in phone_numbers.items():
+    print("{}: {}".format(key, value))
+##########################################################################################################
+phone_numbers = {"John Smith": "+37682929928", "Marry Simpons": "+423998200919"}
+for key, value in phone_numbers.items():
+    modified_value = value.replace('+', '00')
+    print(modified_value)
