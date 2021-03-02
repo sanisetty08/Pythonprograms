@@ -13,6 +13,9 @@ srinurow = read_connection.execute(MyQuery).fetchall()
 srinu_df = pd.DataFrame(srinurow)
 srinu_df.columns = ['customer_id', 'store_id', 'first_name', 'last_name',
                     'email', 'address_id', 'activebool', 'create_date', 'last_update', 'active', 'order_amount']
+
+# The below code is written only for experimental purposes and should not be used in realtime
+
 srinu_dict = srinu_df.to_dict('dict')  # converting to dictionary
 srinu_dictkeys = srinu_dict.keys()  # accessing keys
 srinu_values_temp = list(srinu_dict.values())  # accessing values and converting into list
@@ -24,13 +27,18 @@ srinu_values_temp = list(srinu_dict.values())  # accessing values and converting
 
 # for loop
 # total 11 dictionaries and each dictionary have 1 element
-srinu_list = []
+srinu_list_clean = []
 for E in srinu_values_temp:
     # discarding keys and only considering values bcoz they are all 0a
-    srinu_values_clean = E.values()
-    srinu_list.append(srinu_values_clean)
-    # print(type(srinu_values_clean))
+    srinu_values_clean = str(E.values())
+    srinu_list_clean.append(srinu_values_clean)  # solving the goal
 
+print(srinu_dictkeys)
+print(srinu_list_clean)
+
+# expected output
+{'customer_id': 1, 'store_id': 1, 'first_name': 'Mary', 'last_name': 'Smith', 'email': 'mary.smith@sakilacustomer.org'
+ etc}
 # print(srinu_dictkeys)
 # print(srinu_list)
 # x = range(11)
