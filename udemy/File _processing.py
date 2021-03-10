@@ -24,5 +24,13 @@ with open("D:\Pysql\Pythonprograms\Fruits.txt", "a+") as file:
     file.seek(0)
     content = file.read()
     file.seek(0)
-    file.write("\ncontent")
-    file.write("\ncontent")
+    file.write(content + "\Apple")
+    file.write(content + "\Apple")
+####################################################################################################
+import time
+
+while True:
+    file = open("D:\Pysql\Pythonprograms\Fruits.txt")
+    content = file.read()
+    print(content)
+    time.sleep(3)
