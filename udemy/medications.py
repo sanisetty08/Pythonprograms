@@ -19,6 +19,21 @@ mymedications = jobj['medications'][0]
 
 
 # print(type(mymedications))
-def myfunc(my_dict):
-    my_dose = ?
-    return my_dose
+
+def jobj_f(my_dict):
+    for my_dose in my_dict:
+        if my_dose == 'medications':
+            p = my_dict[my_dose][0]
+            q = p.get('anticoagulants')
+            for my_dose2 in q:
+                if my_dose2.keys().get('dose'):
+                    print(my_dict)
+
+        # sample = my_dict['medications'][my_dose]
+    # if my_dose == my_dict['medications'][my_dose]:
+    # print(my_dose)
+    return 0
+
+
+print(jobj_f(jobj))
+# jobj['medications'][0]
