@@ -1,5 +1,7 @@
 import json
 
+import pandas as pd
+
 with open('D:\IDE\Pythonbasics\SimpleUSMedicalSurgeryClaimAll.json', 'r') as myfile:
     data = myfile.read()
 
@@ -57,4 +59,10 @@ def myfunc_list():
 #             + ' ' + myfunc('country')
 # print(my_functest)
 
-print(myfunc_list())
+# print(myfunc_list())
+
+data = myfunc_list()
+# converting list of lists to dataframe
+df = pd.DataFrame(data)
+df.columns = ['Name', 'Address', 'City', 'State', 'Zipcode', 'Country']
+print(df)
